@@ -146,6 +146,12 @@ background-repeat:no-repeat;
 
 
 }
+.last{
+  height:50px;
+  background-color: red;
+   background-image: url(../images/last.jpg);
+   background-size: contain;
+}
 .logopng img{
   width:160px;
   height:130px;
@@ -198,10 +204,10 @@ span {
     margin: 0 10px;
 }
 .aboutback{
-  background-image: url(../images/about.jpg);
-  background-repeat:no-repeat;
-  background-size: cover;
-
+  background-color: white;
+  background-image: url(../images/about1.jpg);
+  background-repeat:repeat;
+  background-size: 100px 100px;
 
 }
 .about{
@@ -294,14 +300,15 @@ h4:after {
 color: grey;
 
   width: 100%;
-height: 430px;
-  align-items: center;
+height: 400px;
+
+
   padding: 20px;
   background-color: white;
 }
 .pro1{
   width: 33%;
-  padding: 2px;
+  padding: 0px;
   float: left;
   height: 100%;
 }
@@ -309,20 +316,20 @@ height: 430px;
   width: 33%;
   float: left;
   height: 100%;
-  padding: 2px;
+  padding: 0px;
 }
 .pro3{
   width: 33%;
-  height: 98%;
+  height: 100%;
   float: left;
-  padding: 2px;
+
+  padding: 0px;
 }
 .protxt{
 color: black;
 font-size: 10px;
 height: 1px;
 text-align: center;
-
 
 background-color: lightgrey;
 }
@@ -331,13 +338,13 @@ background-color: lightgrey;
 
   color:white;
   padding:4px;
+width:100%;
   font-size: 13px;
   font-weight:900px;
   font-family: "Montserrat", sans-serif;
-border: 1px solid black;
+border: 2px solid black;
   background-image:linear-gradient(#595959,#595959);
   height:28px;
-
 
 }
 
@@ -414,6 +421,7 @@ border: 1px solid black;
 
   .aboutmain{
 height: 1460px;
+
 
   }
   .about1{
@@ -1120,6 +1128,7 @@ background-color: Transparent;
   margin-bottom: 30px;
   float: left;
   width: 100%;
+  font-family:  "Montserrat", sans-serif;
   position: relative;
 }
 .gtco-contact-info ul {
